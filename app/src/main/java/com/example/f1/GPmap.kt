@@ -33,6 +33,8 @@ class GPmap : AppCompatActivity(), OnMapReadyCallback {
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
+    //this fn passes latlng as parameters
+    //.addMarker() options sucks 
     private fun longclickonelmap(map: GoogleMap){
         mMap.setOnMapLongClickListener {latLng->
             mMap.addMarker(MarkerOptions().position(latLng))
