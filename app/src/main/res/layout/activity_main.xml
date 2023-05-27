@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="true"
+    android:animateLayoutChanges="false"
+    android:animationCache="true"
+    android:background="@drawable/newbg"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <VideoView
+        android:id="@+id/v"
+        android:layout_width="378dp"
+        android:layout_height="423dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="657dp"
+        android:fontFamily="@font/titillium_web_extralight"
+        android:text="© 2003-2023 Formula One World Championship Limited A shit ton of time went into this app I have made countless sacrifices to make this work "
+        android:textAlignment="center"
+        android:textColor="#F1EEEE"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/v"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="97dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/titillium_web_light"
+        android:gravity="center"
+        android:text="Initializing..."
+        android:textColor="#333232"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/fia" />
+
+    <VideoView
+        android:id="@+id/vv"
+        android:layout_width="264dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

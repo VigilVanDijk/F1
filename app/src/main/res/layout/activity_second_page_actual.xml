@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPageActual"
+    android:background="@drawable/epicbg2"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="305dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@drawable/f1saxlogo" />
+
+    <Button
+        android:id="@+id/drbtn"
+        android:layout_width="257dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#FF3131"
+        android:drawableRight="@drawable/arright"
+        android:fontFamily="@font/titillium_web_light"
+        android:gravity="center"
+        android:text="Select Driver"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/grprbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.674"
+        app:rippleColor="#FF3131" />
+
+    <Button
+        android:id="@+id/grprbtn"
+        android:layout_width="262dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="#FF3131"
+        android:drawableRight="@drawable/arright"
+        android:ellipsize="start"
+        android:fontFamily="@font/titillium_web_light"
+        android:gravity="center"
+        android:text="Select Grand Prix"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#FF3131" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="196dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/titillium_web_light"
+        android:gravity="center"
+        android:text="2023 Squantermangled Copyright"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

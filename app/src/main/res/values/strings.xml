@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">F1</string>
+    <string name="promt">Choose Driver</string>
+    <string name="title_activity_grpract">grpract</string>
+    <string name="title_activity_grpmap">grpmap</string>
+    <string name="title_activity_gpmap">GPmap</string>
+    <string name="title_activity_gpmap2">GPmap2</string>
+    <string name="title_activity_gpmap3">GPmap3</string>
+    <string name="title_activity_gpmap4">GPmap4</string>
+    <string name="title_activity_gpmap5">GPmap5</string>
+    <string name="title_activity_gpmap6">GPmap6</string>
+    <string name="normal_map">Normal </string>
+    <string name="hybrid_map">Hybrid </string>
+    <string name="satellite_map">Satellite </string>
+    <string name="terrain_map">Terrain </string>
+    <string name="lat_long_snippet">Lat: %1$.5f, Long: %2$.5f</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <string name="poi">poi</string>
+</resources>
