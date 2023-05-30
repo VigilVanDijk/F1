@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/newbackkkk"
+    android:backgroundTintMode="multiply"
     tools:context=".secpage">
 
     <Button
@@ -20,26 +21,24 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
         android:id="@+id/spin"
         android:layout_width="340dp"
         android:layout_height="62dp"
         android:layout_marginTop="332dp"
-        android:background="@drawable/spbg"
+        android:background="@android:drawable/dialog_holo_dark_frame"
         android:dropDownWidth="350dp"
         android:pointerIcon="arrow"
-        android:popupBackground="@drawable/spbg"
+        android:popupBackground="@android:drawable/dialog_holo_dark_frame"
         android:spinnerMode="dropdown"
         android:textAlignment="center"
         app:barrierMargin="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -75,10 +74,11 @@
         android:id="@+id/textView3"
         android:layout_width="152dp"
         android:layout_height="30dp"
+        android:background="#000000"
         android:fontFamily="@font/titillium_web_light"
         android:gravity="center"
         android:text="@string/promt"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/spin"

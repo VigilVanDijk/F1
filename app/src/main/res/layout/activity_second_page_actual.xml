@@ -8,21 +8,11 @@
     android:background="@drawable/epicbg2"
     >
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="305dp"
-        android:layout_height="194dp"
-        android:layout_marginStart="52dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08"
-        app:srcCompat="@drawable/f1saxlogo" />
-
     <Button
         android:id="@+id/drbtn"
         android:layout_width="257dp"
         android:layout_height="83dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#FF3131"
         android:drawableRight="@drawable/arright"
         android:fontFamily="@font/titillium_web_light"
@@ -34,15 +24,14 @@
         app:layout_constraintBottom_toTopOf="@+id/grprbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.674"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.75"
         app:rippleColor="#FF3131" />
 
     <Button
         android:id="@+id/grprbtn"
         android:layout_width="262dp"
         android:layout_height="82dp"
-        android:layout_marginEnd="76dp"
         android:layout_marginBottom="168dp"
         android:backgroundTint="#FF3131"
         android:drawableRight="@drawable/arright"
@@ -55,6 +44,8 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#FF3131" />
 
     <TextView
@@ -71,5 +62,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="426dp"
+        android:layout_height="226dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/newbackkkkk" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
